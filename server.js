@@ -1,4 +1,4 @@
-import rigsData from "./data.js";
+const rigsData = require("./data.js");
 
 const express = require("express");
 const cors = require("cors");
