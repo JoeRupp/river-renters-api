@@ -126,7 +126,7 @@ const rigsData = [
     rentStartDate: "",
     rentEndDate: "",
     description:
-      "MAX VERSATILITY: Rounding out the Mini line comes the NEW MAX 12.0. RAFTING IS DYNAMIC – that’s why it never gets old. From exploring new rivers and experiencing fluctuating flows, to switching from a paddle crew to a fishing set up: the options are limitless. With so many possibilities, it’s hard to get a boat that does it all. That’s where the Max 12.0 comes in. Riding on the same versatile design as the Mini-Me and Mini-Max, the Max 12.0 comes stock with three removable thwarts, a 74” straight section and 19” tubes. This raft can handle a boatload.",
+      "MAX VERSATILITY: Rounding out the Mini line comes the NEW MAX 12.0. RAFTING IS DYNAMIC. Thats why it never gets old. From exploring new rivers and experiencing fluctuating flows, to switching from a paddle crew to a fishing set up: the options are limitless. With so many possibilities, its hard to get a boat that does it all. Thats where the Max 12.0 comes in. Riding on the same versatile design as the Mini-Me and Mini-Max, the Max 12.0 comes stock with three removable thwarts, a 74” straight section and 19” tubes. This raft can handle a boatload.",
     photoId: "rigs-Hyside-9.png",
   },
   {
@@ -139,7 +139,7 @@ const rigsData = [
     rentStartDate: "",
     rentEndDate: "",
     description:
-      "This “big tube, little boat” design offers the perfect blend of big water stability and capacity. And it’s not uncommon to see it run with a third thwart.",
+      "This “big tube, little boat” design offers the perfect blend of big water stability and capacity. And its not uncommon to see it run with a third thwart.",
     photoId: "rigs-Hyside-7.png",
   },
   {
@@ -152,7 +152,7 @@ const rigsData = [
     rentStartDate: "",
     rentEndDate: "",
     description:
-      "Introducing RMR's series of lightweight, plug n' play frame packages. The Rocky Mountain Raft 4-bay 14' Frame Package comes with EVERYTHING you need to hit the river in style. Choose your color of the SBDS-140 (drop-stitch floor) - and leave the rest to us. RMR Frames are made in Fayette County, WV by our experienced frame designer and craftsman.  The RMR 4-Bay Frame is hand-crafted from  1-1/2 Sch 40 6063 T6 Anodized Aluminum with Hollaender Speed Rail Fittings and includes a kick bar and custom oar towers.  We've added Sawyer components, a poly deck, drop bags, cam straps...just add water and you're ready to fish the eddies or overnight in style!",
+      "Introducing RMR's series of lightweight, plug n' play frame packages. The Rocky Mountain Raft 4-bay 14' Frame Package comes with EVERYTHING you need to hit the river in style. Choose your color of the SBDS-140 (drop-stitch floor) - and leave the rest to us. RMR Frames are made in Fayette County, WV by our experienced frame designer and craftsman.  The RMR 4-Bay Frame is hand-crafted from  1-1/2 Sch 40 6063 T6 Anodized Aluminum with Hollaender Speed Rail Fittings and includes a kick bar and custom oar towers.",
     photoId: "rigs-RMR-6.png",
   },
   {
@@ -282,7 +282,7 @@ const rigsData = [
     rentStartDate: "",
     rentEndDate: "",
     description:
-      "Its very common to get bookings that add up to 8 plus, but few boat designs will handle them. On California’s American River, where class III and busy weekends are the norm, this 4 thwart people mover was developed. Not much bigger than the other boats on the river but very helpful when extra boats and guides are scarce.",
+      "Its very common to get bookings that add up to 8 plus, but few boat designs will handle them. On Californias American River, where class III and busy weekends are the norm, this 4 thwart people mover was developed. Not much bigger than the other boats on the river but very helpful when extra boats and guides are scarce.",
     photoId: "rigs-Hyside-4.png",
   },
   {
@@ -321,7 +321,7 @@ const rigsData = [
     rentStartDate: "",
     rentEndDate: "",
     description:
-      "Place it next to our PRO 13.0 and it would be difficult to tell them apart. With all the bells and whistles you’d expect, like four main chambers, triple bonded seams and urethane bottom chafers, you can’t beat this 6-8 passenger workhorse for the very affordable price. The perfect size for a 3 man fishing rig, with plenty of cargo space, yet narrow enough to sneak into your favorite spots.",
+      "Place it next to our PRO 13.0 and it would be difficult to tell them apart. With all the bells and whistles youd expect, like four main chambers, triple bonded seams and urethane bottom chafers, you cant beat this 6-8 passenger workhorse for the very affordable price. The perfect size for a 3 man fishing rig, with plenty of cargo space, yet narrow enough to sneak into your favorite spots.",
     photoId: "rigs-Hyside-3.png",
   },
   {
@@ -334,7 +334,7 @@ const rigsData = [
     rentStartDate: "",
     rentEndDate: "",
     description:
-      "Yes, the XT means just that, a little extra in the tubes, the beam and straight tube, for those encounters of just about anything. The perfect gear boat, multi-day, or big water paddle boat. We’ve added 5 additional d-rings to the XT, based on your feedback. 1 at each outside quarter panel and 1 at the inside stern. ENJOY!",
+      "Yes, the XT means just that, a little extra in the tubes, the beam and straight tube, for those encounters of just about anything. The perfect gear boat, multi-day, or big water paddle boat. Weve added 5 additional d-rings to the XT, based on your feedback. 1 at each outside quarter panel and 1 at the inside stern. ENJOY!",
     photoId: "rigs-Hyside-5.png",
   },
   {
@@ -373,7 +373,7 @@ const rigsData = [
     rentStartDate: "",
     rentEndDate: "",
     description:
-      "This ones YOUR baby! The Willy-Willy was created for you and by you. The new design is inspired by one of our most popular rafts, the Williwaw 1. You asked for it, so we filled the gap between the narrower Diablo and the wider Zephyr. The Willy-Willy is perfectly sized to accommodate a 40” drybox and larger cooler. ",
+      "This ones YOUR baby! The Willy-Willy was created for you and by you. The new design is inspired by one of our most popular rafts, the Williwaw 1. You asked for it, so we filled the gap between the narrower Diablo and the wider Zephyr. The Willy-Willy is perfectly sized to accommodate a 40” drybox and larger cooler.",
     photoId: "rigs-Maravia-4.png",
   },
   {
