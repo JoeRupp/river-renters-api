@@ -48,7 +48,7 @@ app.post("/api/v1/rigs", (request, response) => {
   ]) {
     if (!rig[requiredParameter]) {
       response.status(422).send({
-        error: `Expected format: { name: <String>, type: <String> }. You're missing a "${requiredParameter}" property.`,
+        error: `Expected format: { name: <String>, brand: <String>, type: <String>, cost: <Number>, description: <String>, photoId: <String>, }. You're missing a "${requiredParameter}" property.`,
       });
     }
   }
@@ -78,6 +78,41 @@ app.post("/api/v1/rigs", (request, response) => {
     rentStartDate,
     rentEndDate,
   });
+});
+
+app.patch("/api/v1/rigs/:id", (request, response) => {
+  const { id } = request.params;
+  const rig = request.body;
+
+  for (let requiredParameter of ["status", "rentStartDate", "rentEndDate"]) {
+    if (!rig[requiredParameter]) {
+      response.status(422).send({
+        error: `Expected format: { status: <String>, rentStartDate: <String>, rentEndDate: <String> }. You're missing a "${requiredParameter}" property.`,
+      });
+    }
+  }
+
+  app.locals.rigs.find((raft) => {
+    if (Number(raft.id) === Number(id)) {
+      raft.status = rig.status;
+      raft.rentStartDate = rig.rentStartDate;
+      raft.rentEndDate = rig.rentEndDate;
+    }
+  });
+
+  response.status(200).json(rig);
+});
+
+app.delete("/api/v1/rigs/:id", (request, response) => {
+  const { id } = request.params;
+
+  app.locals.rigs.find((raft, index) => {
+    if (Number(raft.id) === Number(id)) {
+      app.locals.rigs.splice(index, 1);
+    }
+  });
+
+  response.status(200).json(app.locals.rigs);
 });
 
 app.listen(app.get("port"), () => {
