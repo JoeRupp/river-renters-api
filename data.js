@@ -391,4 +391,4 @@ const rigsData = [
   },
 ];
 
-// export default rigsData;
+module.exports = rigsData;
