@@ -1,4 +1,4 @@
-# River Renters API
+# River Renters API 🛶
 
 This is an API using Express/Node.js for a final Mod 3 project at Turing Software of Engineering and Design.
 This app exposes endpoints to return a single users list of white water rafts.
@@ -70,17 +70,17 @@ Available endpoints:
 ```
 
 {
-id: 1,
-status: "available",
-name: "NRS Expedition-136 - fully rigged",
-brand: "NRS",
-type: "Multi-day",
-cost: 195,
-rentStartDate: "",
-rentEndDate: "",
-description:
-"The 13 ft 6in NRS E-136 plays like a 13' boat and works like a 14' boat. Its aggressive rocker and wide stance make it fun but dependable in the rapids. Great for fishing, overnights and just seeking thrills.",
-photoId: "exampleImage.png"
+  id: 1,
+  status: "available",
+  name: "NRS Expedition-136 - fully rigged",
+  brand: "NRS",
+  type: "Multi-day",
+  cost: 195,
+  rentStartDate: "",
+  rentEndDate: "",
+  description:
+  "The 13 ft 6in NRS E-136 plays like a 13' boat and works like a 14' boat. Its aggressive rocker and wide stance make it fun but dependable in the rapids. Great for fishing, overnights and just seeking thrills.",
+  photoId: "exampleImage.png"
 }
 
 ```
@@ -98,12 +98,12 @@ photoId: "exampleImage.png"
 ```
 
 {
-"name": "Maravia 14X24 Cataraft - fully rigged",
-"brand": "Maravia",
-"type": "Multi-day",
-"cost": 150,
-"description": "Smooth curved bow and stern profiles on this highly maneuverable cataraft cut the water more like a hard hull and gives better handling characteristics.",
-"photoId": "exampleImage.png"
+  "name": "Maravia 14X24 Cataraft - fully rigged",
+  "brand": "Maravia",
+  "type": "Multi-day",
+  "cost": 150,
+  "description": "Smooth curved bow and stern profiles on this highly maneuverable cataraft cut the water more like a hard hull and gives better handling characteristics.",
+  "photoId": "exampleImage.png"
 }
 
 ```
@@ -115,17 +115,17 @@ photoId: "exampleImage.png"
 ```
 
 {
-id: 5749006037252849,
-status: "available",
-name: "Maravia 14X24 Cataraft - fully rigged",
-brand: "Maravia",
-type: "Multi-day",
-cost: 150,
-rentStartDate: "",
-rentEndDate: "",
-description:
-"Smooth curved bow and stern profiles on this highly maneuverable cataraft cut the water more like a hard hull and gives better handling characteristics.",
-photoId: "exampleImage.png",
+  id: 5749006037252849,
+  status: "available",
+  name: "Maravia 14X24 Cataraft - fully rigged",
+  brand: "Maravia",
+  type: "Multi-day",
+  cost: 150,
+  rentStartDate: "",
+  rentEndDate: "",
+  description:
+  "Smooth curved bow and stern profiles on this highly maneuverable cataraft cut the water more like a hard hull and gives better handling characteristics.",
+  photoId: "exampleImage.png",
 }
 
 ```
@@ -143,9 +143,9 @@ photoId: "exampleImage.png",
 ```
 
 {
-status: "rented",
-rentStartDate: "06.27.2022",
-rentEndDate: "07.04.2022"
+  status: "rented",
+  rentStartDate: "06.27.2022",
+  rentEndDate: "07.04.2022"
 }
 
 ```
@@ -157,17 +157,17 @@ rentEndDate: "07.04.2022"
 ```
 
 {
-id: 5749006037252849,
-status: "rented",
-name: "Maravia 14X24 Cataraft - fully rigged",
-brand: "Maravia",
-type: "Multi-day",
-cost: 150,
-rentStartDate: "06.27.2022",
-rentEndDate: "07.04.2022",
-description:
-"Smooth curved bow and stern profiles on this highly maneuverable cataraft cut the water more like a hard hull and gives better handling characteristics.",
-photoId: "exampleImage.png",
+  id: 5749006037252849,
+  status: "rented",
+  name: "Maravia 14X24 Cataraft - fully rigged",
+  brand: "Maravia",
+  type: "Multi-day",
+  cost: 150,
+  rentStartDate: "06.27.2022",
+  rentEndDate: "07.04.2022",
+  description:
+  "Smooth curved bow and stern profiles on this highly maneuverable cataraft cut the water more like a hard hull and gives better handling characteristics.",
+  photoId: "exampleImage.png",
 }
 
 ```
@@ -190,24 +190,23 @@ photoId: "exampleImage.png",
 ```
 
 {
-[
-{
-id: 2,
-status: "available",
-name: "NRS Expedition-136 - fully rigged",
-brand: "NRS",
-type: "Multi-day",
-cost: 195,
-rentStartDate: "",
-rentEndDate: "",
-description:
-"The 13 ft 6in NRS E-136 plays like a 13' boat and works like a 14' boat. Its aggressive rocker and wide stance make it fun but dependable in the rapids. Great for fishing, overnights and just seeking thrills.",
-photoId: "exampleImage.png",
-},
-... etc
-]
+  [
+    {
+    id: 2,
+    status: "available",
+    name: "NRS Expedition-136 - fully rigged",
+    brand: "NRS",
+    type: "Multi-day",
+    cost: 195,
+    rentStartDate: "",
+    rentEndDate: "",
+    description:
+    "The 13 ft 6in NRS E-136 plays like a 13' boat and works like a 14' boat. Its aggressive rocker and wide stance make it fun but dependable in the rapids. Great for fishing, overnights and just seeking thrills.",
+    photoId: "exampleImage.png",
+    },
+  ... etc
+  ]
 }
 
 ```
 </details>
-```
