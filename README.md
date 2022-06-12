@@ -1,16 +1,33 @@
 # River Renters API 🛶
 
-This is an API using Express/Node.js for a final Mod 3 project at Turing Software of Engineering and Design.
-This app exposes endpoints to return a single users list of white water rafts.
+This is an API using Express/Node.js for a final Mod 3 project at Turing Software of Engineering & Design.
+This app exposes endpoints to return a single users list of white water rafts available for rent.
 
-Available endpoints:
+[Checkout the front-end application here](https://github.com/JoeRupp/river-renters)
+
+[Heroku deployment](https://river-renters-api.herokuapp.com/)
+
+## Setup:
+- Clone the repository to your local machine.
+- `cd` into the application.
+- Run `npm install` to install all the project dependencies.
+- Run `node server.js` to run the application locally.
+  - You can also run `nodemon --exec babel-node server.js` if you would like to use nodemon instead.
+  - If you need to stop running the application, run `Control + C`.
+
+## Technologies:
+- JavaScript
+- Express
+- Babel
+
+## Available endpoints:
 
 #### 1. Get Rigs: Returns a list of all rigs
 
 <details>
   <summary> Request </summary>
   
-  *GET `http://localhost:3000/api/v1/rigs`*
+  *GET `https://river-renters-api.herokuapp.com/api/v1/rigs`*
   
   </details>
   
@@ -60,7 +77,7 @@ Available endpoints:
 <details>
   <summary> Request </summary>
 
-  *GET `http://localhost:3000/api/v1/rigs/1`*
+  *GET `https://river-renters-api.herokuapp.com/api/v1/rigs/1`*
 
   </details>
 
@@ -93,7 +110,7 @@ Available endpoints:
 <details>
   <summary> Request </summary>
 
-  *POST `http://localhost:3000/api/v1/rigs`*
+  *POST `https://river-renters-api.herokuapp.com/api/v1/rigs`*
 
 ```
 
@@ -138,7 +155,7 @@ Available endpoints:
 <details>
   <summary> Request </summary>
 
-  *Patch `http://localhost:3000/api/v1/rigs/5749006037252849`*
+  *Patch `https://river-renters-api.herokuapp.com/api/v1/rigs/5749006037252849`*
 
 ```
 
@@ -180,7 +197,7 @@ Available endpoints:
 <details>
   <summary> Request </summary>
 
-  *Delete `http://localhost:3000/api/v1/rigs/1`*
+  *Delete `https://river-renters-api.herokuapp.com/api/v1/rigs/1`*
 
 </details>
 
