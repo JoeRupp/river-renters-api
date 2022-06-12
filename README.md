@@ -105,7 +105,7 @@ This app exposes endpoints to return a single users list of white water rafts av
 
 ---
 
-  #### 3. Create New Rig
+  #### 3. Create New Rig: Adds a new rig
 
 <details>
   <summary> Request </summary>
@@ -150,7 +150,7 @@ This app exposes endpoints to return a single users list of white water rafts av
 
 ---
 
-  #### 4. Patch Rig
+  #### 4. Patch Rig: Updates a single rig
 
 <details>
   <summary> Request </summary>
@@ -192,7 +192,7 @@ This app exposes endpoints to return a single users list of white water rafts av
 
 ---
 
-  #### 5. Delete Rig
+  #### 5. Delete Rig: Removes a rig
 
 <details>
   <summary> Request </summary>
