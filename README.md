@@ -27,7 +27,7 @@ This app exposes endpoints to return a single users list of white water rafts av
 <details>
   <summary> Request </summary>
   
-  *GET `https://river-renters-api.vercel.com/api/v1/rigs`*
+  *GET `https://river-renters-api.vercel.app/api/v1/rigs`*
   
   </details>
   
@@ -77,7 +77,7 @@ This app exposes endpoints to return a single users list of white water rafts av
 <details>
   <summary> Request </summary>
 
-  *GET `https://river-renters-api.vercel.com/api/v1/rigs/1`*
+  *GET `https://river-renters-api.vercel.app/api/v1/rigs/1`*
 
   </details>
 
@@ -110,7 +110,7 @@ This app exposes endpoints to return a single users list of white water rafts av
 <details>
   <summary> Request </summary>
 
-  *POST `https://river-renters-api.vercel.com/api/v1/rigs`*
+  *POST `https://river-renters-api.vercel.app/api/v1/rigs`*
 
 ```
 
@@ -155,7 +155,7 @@ This app exposes endpoints to return a single users list of white water rafts av
 <details>
   <summary> Request </summary>
 
-  *Patch `https://river-renters-api.vercel.com/api/v1/rigs/5749006037252849`*
+  *Patch `https://river-renters-api.vercel.app/api/v1/rigs/5749006037252849`*
 
 ```
 
@@ -197,7 +197,7 @@ This app exposes endpoints to return a single users list of white water rafts av
 <details>
   <summary> Request </summary>
 
-  *Delete `https://river-renters-api.vercel.com/api/v1/rigs/1`*
+  *Delete `https://river-renters-api.vercel.app/api/v1/rigs/1`*
 
 </details>
 
