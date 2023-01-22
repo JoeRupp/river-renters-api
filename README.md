@@ -5,7 +5,7 @@ This app exposes endpoints to return a single users list of white water rafts av
 
 [Checkout the front-end application here](https://github.com/JoeRupp/river-renters)
 
-[Heroku deployment](https://river-renters-api.herokuapp.com/)
+[Vercel deployment](https://river-renters-api.vercel.app/)
 
 ## Setup:
 - Clone the repository to your local machine.
